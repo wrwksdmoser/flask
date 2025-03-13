@@ -15,4 +15,4 @@ COPY . .
 EXPOSE 5000
 
 # Startbefehl
-CMD ["python", "app.py"]
+CMD ["python", "main.py"]
