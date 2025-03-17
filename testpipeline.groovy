@@ -15,5 +15,12 @@ pipeline {
                 }
             }
         }
+        stage('PyTest') {
+            steps {
+                withPythonEnv('python3') {
+                    sh 'pytest'
+                }
+            }
+        }
     }
 }
