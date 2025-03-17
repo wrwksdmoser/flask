@@ -9,7 +9,7 @@
 
 name: Upload Python Package
 
-on: worklow_dispatch
+on: workflow_dispatch
   release:
     types: [published]
 
