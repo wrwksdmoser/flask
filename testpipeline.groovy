@@ -18,7 +18,8 @@ pipeline {
         stage('PyTest') {
             steps {
                 withPythonEnv('python3') {
-                    sh 'pytest'
+                    sh 'pip install pytest'
+                    sh 'pytest test_main.py'
                 }
             }
         }
