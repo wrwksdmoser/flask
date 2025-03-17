@@ -1,4 +1,4 @@
-name: Upload Python Package
+name: Pipeline Test
 
 on:
   workflow_dispatch:
